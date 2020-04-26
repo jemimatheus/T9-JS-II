@@ -83,11 +83,11 @@ const frases = ["A vida trará coisas boas se tiveres paciência.",
     
 */
 
-const biscoito = document.querySelector('img')
-const mensagem = document.querySelector('#message')
+const image = document.querySelector('img')
+const result = document.querySelector('#resultado')
 
 function fraseDaSorte() {
-  const numeroAleatorio = Math.floor(Math.random() * frases.length)
-  mensagem.innerText = frases[numeroAleatorio]
+  const randowNumber = Math.floor(Math.random()*frases.length)
+  result.innerText = frases[randowNumber]
 }
 

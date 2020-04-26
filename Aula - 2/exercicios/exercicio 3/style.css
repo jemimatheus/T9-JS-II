@@ -1,0 +1,16 @@
+
+
+
+body{
+padding: 30px;
+  
+    text-align: center;
+    background-color: mediumseagreen;
+}
+
+#autor{
+       
+    display: inline-block;
+    font-size: large;
+}
+

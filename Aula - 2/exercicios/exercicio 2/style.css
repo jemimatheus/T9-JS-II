@@ -1,0 +1,12 @@
+body{
+    background-color: burlywood;
+}
+
+.list-item > li {
+
+ text-decoration: blueviolet;
+}
+
+span {
+    text-decoration-color: chartreuse;
+}

@@ -9,17 +9,17 @@ const botao = document.querySelector('button')
 
 //botao = "alguma"
 
-// botao.innerText = "algumacoisa"
+botao.innerText = "algumacoisa"
 
 // ------------------------------------------------------
-// //altera o conteúdo textual do elemento
-// //console.log(strong.innerText)
+//altera o conteúdo textual do elemento
+//console.log(strong.innerText)
 
-// //strong.innerText = "Olá, Marisa!"
+//strong.innerText = "Olá, Marisa!"
 
-// // strong.innerText = "Alterado"
+// strong.innerText = "Alterado"
 
-// // console.log(strong.innerText)
+// console.log(strong.innerText)
 
 //-------------------------------------------
 //altera o conteúdo HTML do elemento
@@ -32,7 +32,7 @@ const botao = document.querySelector('button')
 
 // -----------------------------------------------
 // alterar o conteúdo do body 
-//document.body.innerHTML = ...
+// document.body.innerHTML = ...
 
 // ---------------------------------------------
 //altera o estilo do elemento
@@ -50,25 +50,23 @@ const botao = document.querySelector('button')
 //chamando classList
 // o classList é uma lista de todas as classes definidas no HTML para o elemento
 //adicionando uma classe na lista de classes do meu elemento
+//console.log(div.classList)
+//div.classList.add('divAlteradaPorJS')
+//console.log(div.classList)
 
-// console.log(div.classList)
-// div.classList.add('divAlteradaPorJS')
-// console.log(div.classList)
-
-// removendo classes
-// div.classList.remove('divAlteradaPorJS', 'divCSS')
+//removendo classes
+//div.classList.remove('divAlteradaPorJS', 'divCSS')
 
 // -----------------------------------------------
 // alterando atributos HTML
 
-// imagem.src = "https://media.giphy.com/media/7wDEaTbCupuRq/giphy.gif"
+//imagem.src = "https://media.giphy.com/media/7wDEaTbCupuRq/giphy.gif"
 
 // usando setAtributte
 // div.setAttribute("id", "idNOvo")
 
 // botao.name = "logout"
 
-
-// botao.setAttribute("name", "logout")
+// div.setAttribute("name", "logout")
 
 // console.log(botao.name)

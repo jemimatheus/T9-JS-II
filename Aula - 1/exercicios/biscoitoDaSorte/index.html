@@ -4,13 +4,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Biscoito da sorte</title>
+<style>
+    body {
+        text-align: center;
+        padding-top: 50px;
+        background-color:cadetblue;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    img {
+        width: 200px;
+        margin-top: 30px;
+    }
+
+    .imagem {
+        width: 400px;
+    }
+
+   
+</style>
 </head>
 <body>
     <div>
         <h1>Biscoito da sorte</h1>
         <img onclick=fraseDaSorte() src="./icon.png" alt="Imagem de um biscoito da sorte">
-        <p id="message"></p>
+        <p id="resultado"></p>
     </div>
-    <script src="./script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

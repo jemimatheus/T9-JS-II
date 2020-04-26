@@ -12,4 +12,20 @@
     
 */
 
+window.addEventListener('DOMContentLoaded',function(){
+
 //seu código vai aqui
+
+//Selecionando a imagem do gato no HTML
+const gato = document.querySelector('#cat-pic')
+
+//Declarando uma função que altera o conteudo textual da div com o id " cat-chat"
+function falaGato(){
+  const miau = document.querySelector('#cat-chat')
+//alterando o texto do div miau
+  miau.innerText = "Miauuuuuu"
+}
+
+gato.addEventListener('click',falaGato)
+
+})
